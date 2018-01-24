@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import javax.swing.JEditorPane;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -71,7 +71,6 @@ public class Homework1  extends JPanel
 
 
 
-=======
 import java.util.Stack;
 
 public class Homework1 {
@@ -85,7 +84,7 @@ public class Homework1 {
 		}
 		return false;
 	}
->>>>>>> ccdaf025edaef28a8f1436f09d56f797918f43bf
+
 
 	public static Boolean Isoperand(Character character)
 	{
@@ -97,7 +96,6 @@ public class Homework1 {
 	}
 	public static void main(String[] args) {
 
-<<<<<<< HEAD
 		String pf = "251-*32*+";
 
 		if(args.length>0)pf=args[0];
@@ -112,13 +110,13 @@ public class Homework1 {
 		javax.swing.SwingUtilities.invokeLater(new Runnable() {
 			public void run() {
 				createAndShowGUI();
-=======
+
 		String input="251-*32*+";
 		if (args.length > 0) {
 			input = args[0];
 			if (input.equalsIgnoreCase("251-*32*+")) {
 				System.out.println("(2*(5-1))+(3*2)=14");
->>>>>>> ccdaf025edaef28a8f1436f09d56f797918f43bf
+
 			}
 		});
 	}
@@ -206,9 +204,9 @@ public class Homework1 {
 			case "/" :sum = calculate(node.getNextNode()) / calculate(node.getNextNode().getNextSibling()); break;
 			default : sum = calculate(node.getNextNode()) + calculate(node.getNextNode().getNextSibling()); break;
 		}
-<<<<<<< HEAD
+
 		return sum;
-=======
+
 		for (int i = 0; i <input.length() ; i++) {
 			stackold.add(input.charAt(i));
 		}
@@ -265,6 +263,6 @@ public class Homework1 {
 
 		return 0;
 
->>>>>>> ccdaf025edaef28a8f1436f09d56f797918f43bf
+
 	}
 }
