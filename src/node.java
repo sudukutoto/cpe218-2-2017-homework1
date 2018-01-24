@@ -4,7 +4,7 @@ public class Node
     Node left,right;
     char ch;
 
-    Node(Node l,char item,Node r) {
+    public Node(Node l,char item,Node r) {
         ch = item;
         left = null;
         right = null;
