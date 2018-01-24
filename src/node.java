@@ -1,16 +1,15 @@
-/**
- * Created by supitch on 1/21/18.
- */
-public class node {
+public class Node
+{
+    Node left,right;
+    char ch;
 
-    public node left;
-    public node right;
-        Character k;
-
-        public node(char key)
-        {
-            k = key;
-        }
+    Node(Node l,char item,Node r) {
+        ch = item;
+        left = null;
+        right = null;
+    }
+    public String toString() {
+        return (right == null && left == null) ? Character.toString(ch) : "(" + left.toString()+ ch + right.toString() + ")";
+    }
 
 }
-
